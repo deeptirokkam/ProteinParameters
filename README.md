@@ -3,7 +3,7 @@ An R package to calculate commonly used protein parameters such as molecular wei
 
 # Installation
 Install and load the following packages
-
+```
 install.packages("devtools")
 library(devtools)
 install_github("Bioconductor/Biostrings")
@@ -18,12 +18,12 @@ install_github("tidyverse/plyr")
 library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
-
+```
 # Vignette
-
+```
 in.file <- read.csv("~/Proteins/Sequences.csv")
 prot.parameters <- ProteinParam(in.file, out.file)
-
+```
 
 
 

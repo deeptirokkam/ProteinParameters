@@ -1,5 +1,5 @@
 # ProteinParameters
-A R package to calculate commonly used protein parameters such as molecular weight, theoretical pI, extinction coefficient, and E1%. Can be used to calculate values for a large number of sequences simultaneously.
+An R package to calculate commonly used protein parameters such as molecular weight, theoretical pI, extinction coefficient, and E1%. Can be used to calculate values for a large number of sequences simultaneously.
 
 # Installation
 Install and load the following packages

@@ -21,7 +21,6 @@ library(pIR)
 ```
 # _Vignette_
 ```
-R
 in.file <- read.csv("~/Proteins/Sequences.csv")
 prot.parameters <- ProteinParam(in.file, out.file)
 ```

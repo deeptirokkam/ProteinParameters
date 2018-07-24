@@ -18,14 +18,12 @@ install_github("tidyverse/plyr")
 library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
-// code for coloring
 ```
 # _Vignette_
 ```
 R
 in.file <- read.csv("~/Proteins/Sequences.csv")
 prot.parameters <- ProteinParam(in.file, out.file)
-// code for coloring
 ```
 
 

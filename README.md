@@ -3,9 +3,9 @@ An R package to calculate commonly used protein parameters such as molecular wei
 
 # _Installation_
 Install and load the following packages
-```diff
-+ install.packages("devtools")
-- library(devtools)
+```R
+install.packages("devtools")
+library(devtools)
 install_github("Bioconductor/Biostrings")
 library(Biostrings)
 install_github("Bioconductor/ShortRead")
@@ -18,6 +18,7 @@ install_github("tidyverse/plyr")
 library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
+// code for coloring
 ```
 # _Vignette_
 ```

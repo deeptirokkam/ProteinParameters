@@ -3,11 +3,10 @@ An R package to calculate commonly used protein parameters such as molecular wei
 
 # _Installation_
 Install and load the following packages
-```
-diff
+```diff
 + install.packages("devtools")
 - library(devtools)
-+ install_github("Bioconductor/Biostrings")
+install_github("Bioconductor/Biostrings")
 library(Biostrings)
 install_github("Bioconductor/ShortRead")
 library(ShortRead)

@@ -19,10 +19,10 @@ library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
 ```
-# _Vignette_
+# _Example_
 ```
-in.file <- read.csv("~/Proteins/Sequences.csv")
-prot.parameters <- ProteinParam(in.file, out.file)
+output.file <- file.path("xyz.filename.csv")
+ProteinParam <- Parameters(input.file)
 ```
 
 

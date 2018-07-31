@@ -1,7 +1,7 @@
-# _ProteinParameters_
+## _ProteinParameters_
 An R package to calculate commonly used protein parameters such as molecular weight, theoretical pI, extinction coefficient, and E1%. Can be used to calculate values for a large number of sequences simultaneously.
 
-# _Installation_
+## _Installation_
 Install and load the following packages
 ```
 install.packages("devtools")
@@ -19,13 +19,13 @@ library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
 ```
-# _Usage_
+## _Usage_
 ```
 input.file <- readcsv("/filepath/filename.csv")
 output.file <- file.path("/filepath/filename.csv")
 ProteinParam <- Parameters(input.file)
 ```
-## Input file format: csv file with sequence name in first column and sequence in second column
+#### Input file format: csv file with sequence name in first column and sequence in second column
 
 
 

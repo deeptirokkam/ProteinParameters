@@ -19,12 +19,13 @@ library(plyr)
 install_github("ypriverol/pIR")
 library(pIR)
 ```
-# _Example_
+# _Usage_
 ```
-output.file <- file.path("xyz.filename.csv")
+input.file <- readcsv("/filepath/filename.csv")
+output.file <- file.path("/filepath/filename.csv")
 ProteinParam <- Parameters(input.file)
 ```
-
+## Input file format: csv file with sequence name in first column and sequence in second column
 
 
 
